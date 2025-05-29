@@ -61,9 +61,7 @@ jobs:
       - run:
           name: Run Java Files
           command: |
-            echo "Running cnt.jar..."
             java -jar cnt.jar &
-            echo "Running solver.jar..."
             java -jar solver.jar
 workflows:
   run-svr:
